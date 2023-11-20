@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Sketches</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Spacing between images */
+        }
+        .image-placeholder {
+            width: calc(33.33% - 10px); /* Adjust width and margin according to grid layout */
+            height: 400px; /* Adjust the height as needed */
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="image-grid">
+            <div class="image-placeholder">
+                <img src="ganapati.jpg" alt="Sketch Image 1">
+            </div>
+            <div class="image-placeholder">
+                <img src="person.jpg" alt="Sketch Image 2">
+            </div>
+            <div class="image-placeholder">
+                <img src="rashmika.jpg" alt="Sketch Image 3">
+            </div>
+
+            <div class="image-placeholder">
+              <img src="gun.jpg" alt="Sketch Image 1">
+          </div>
+          <div class="image-placeholder">
+              <img src="bala.jpg" alt="Sketch Image 2">
+          </div>
+          <div class="image-placeholder">
+              <img src="krishna.jpg" alt="Sketch Image 3">
+          </div>
+
+          <div class="image-placeholder">
+            <img src="anime.jpg" alt="Sketch Image 1">
+        </div>
+        <div class="image-placeholder">
+            <img src="person.jpg" alt="Sketch Image 2">
+        </div>
+        <div class="image-placeholder">
+            <img src="bb.jpg" alt="Sketch Image 3">
+        </div>
+            
+        </section>
+  </main>
+</body>
+</html>
